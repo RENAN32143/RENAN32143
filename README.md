@@ -1,25 +1,22 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Em busca da cidade perdida</title>
-</head>
-<body>
-    <main>
-        <div class="passo" id="passo-0">
-            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
-            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
-            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
-        </div>
-        <div class="passo" id="passo-1">
-            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
-            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
-        </div>
-    </main>
+Em Busca da Cidade Perdida 🧭
+Este é o projeto de um jogo de aventura baseado em texto, onde a pessoa usuária toma decisões que influenciam o rumo da história. O objetivo é encontrar uma cidade perdida seguindo pistas em uma carta antiga.
 
+Funcionalidades
+Narrativa interativa: A história se desenrola através de parágrafos de texto, com o usuário fazendo escolhas em pontos específicos.
+Múltiplos finais: Dependendo das decisões tomadas, o jogador pode encontrar a cidade perdida, desistir da aventura ou chegar a outros finais.
+Navegação simples: Botões guiam a pessoa usuária pela história, revelando o próximo passo da aventura.
+Como jogar
+1Abra o arquivo index.html em seu navegador.
+2Leia a história apresentada e clique no botão que corresponde à sua escolha.
+3Continue seguindo a narrativa e tomando decisões até chegar a um final.
+Estrutura do projeto
+O projeto consiste em três arquivos principais:
 
-
-</body>
-</html>
+index.html: Contém o HTML da página, exibindo a história e os botões de navegação.
+style.css: Define o estilo visual do jogo, incluindo cores, fontes e layout.
+script.js: Contém o código JavaScript que controla a lógica do jogo, como a mudança entre os passos da história.
+Sugestões de melhoria para o futuro
+Implementar mais imagens e efeitos sonoros nos pontos para tornar a experiência mais imersiva.
+Criar mais ramificações na história, adicionando mais escolhas e finais ✨
+Deixar o projeto mais acessível para dispositivos móveis.
+Divirta-se em busca da cidade perdida! 🛝
